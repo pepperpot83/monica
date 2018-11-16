@@ -13,3 +13,71 @@ Text Domain:  monica
 /* Scrivi qui il tuo foglio di stile personalizzato */
 
 
+/* Links */
+a {
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+	text-decoration: none;
+	color: #cfb9ad;
+}
+a:visited {
+	color: #cfb9ad;
+}
+a:hover,
+a:focus,
+a:active {
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+			color: #999;
+}
+
+.main-navigation li:hover > a {
+	color: #cfb9ad;
+}
+.main-navigation a,
+.main-navigation a:visited {
+	display: block;
+	padding: 14px 0 14px;
+	text-decoration: none;
+	color: #999;
+	border-bottom: 1px solid #eee;
+}
+
+.menu-toggle:hover #menu-icon {
+	fill: #cfb9ad;
+}
+
+.toggled .menu-toggle {
+	color: #cfb9ad;
+	border-color: #cfb9ad;
+}
+
+.toggled #menu-icon {
+	fill: #cfb9ad;
+}
+
+.site-title{
+	text-decoration: none;
+	color: #666;
+}
+.site-title a {
+	text-decoration: none;
+	color: #666;
+}
+.mail{
+	text-decoration: none;
+	color: #cfb9ad;
+}
+.mail a{
+	text-decoration: none;
+	color: #cfb9ad;
+}
+
+.mail a:hover{
+	text-decoration: none;
+	color: #999;
+}

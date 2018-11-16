@@ -38,8 +38,8 @@
 				<a href="<?php //echo esc_url( __( 'http://wordpress.org/', 'penscratch-2' ) ); ?>"><?php // printf( esc_html__( 'Proudly powered by %s', 'penscratch-2' ), 'WordPress' ); ?></a>
 				<span class="sep"> ~ </span>
                                 
-                                <div>
-                                    <p> Monica Ciaghi | Via Monte Stivo, 3 - Valle S. Felice - Mori | Tel 348 4798340 | E-mail monica.ciaghi@gmail.com</p>    
+                                <div class="mail">
+                                    <p> Monica Ciaghi | Via Monte Stivo, 3 - Valle S. Felice - Mori | Tel 348 4798340 <br />E-mail <a href="mailto:monica.ciaghi@gmail.com">monica.ciaghi@gmail.com</a></p>    
                                     
                                     
                                 </div>
