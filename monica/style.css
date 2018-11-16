@@ -12,8 +12,79 @@ Text Domain:  monica
 
 /* Scrivi qui il tuo foglio di stile personalizzato */
 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+th {
+	font-family: 'Lato';
+	
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+}
+
+body {font-family: 'Lato', serif; font-size: 13px;  }
 
 /* Links */
+
 a {
 	-webkit-transition: all .2s ease-in-out;
 	   -moz-transition: all .2s ease-in-out;
@@ -70,14 +141,38 @@ a:active {
 }
 .mail{
 	text-decoration: none;
-	color: #cfb9ad;
+	color: #999;
 }
 .mail a{
 	text-decoration: none;
-	color: #cfb9ad;
+	color: #999;
 }
 
 .mail a:hover{
 	text-decoration: none;
-	color: #999;
+	color: #cfb9ad;
 }
+
+.main-navigation {
+		font-size: 1.2em;
+		line-height: 2.09231em;
+		text-align: center;
+}
+
+h1 {
+		font-size: 32px;
+                color: #cfb9ad;
+                font-size: 0.1em;
+            
+}
+        
+        
+.site-description {
+	color: #cfb9ad;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0;
+	margin: 7px auto;
+	text-align: center;
+        
+        }
